@@ -1,2 +1,83 @@
 
 /* Your CSS Code here. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh ;
+}
+.container {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #263238;
+    font-size: 24px;
+}
+
+.form {
+    margin-bottom: 18px;
+}
+
+.form > label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.radio-btn {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.radio-btn input {
+    width: auto;
+}
+
+.radio-btn label {
+    margin-right: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+	margin-top:15px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #125ca1;
+}
+
